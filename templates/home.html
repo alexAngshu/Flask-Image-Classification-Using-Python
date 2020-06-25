@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Image Classification
+{% endblock %}
+
+
+{% block content %}
+<div id="form">
+  <form action="/results" id="input" enctype="multipart/form-data" method="post">
+
+    <label for="">Upload An Image File</label>
+    <input type="file" id="file" name="file">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+{% endblock %}

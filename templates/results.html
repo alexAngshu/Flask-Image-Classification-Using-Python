@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Image Classification
+{% endblock %}
+
+
+{% block content %}
+<div class="prediction"><h2>Input Image</h2></div>
+
+<image src="{{ uploaded_image }}" id="resultImage" style="" />
+
+<div class="prediction">
+	<h3>Classification Report: {{ class_of_img }}</h3>
+</div>
+<div class="prediction">
+	<h3>Classification Accuracy: {{ accuracy_of_img }}</h3>
+</div>
+<div class="prediction">
+	<button type="submit" class="btn"><a href="/">Back to Home</a></button>
+{% endblock %}
