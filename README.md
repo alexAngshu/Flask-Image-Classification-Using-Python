@@ -7,11 +7,11 @@ To run this app, ensure the following are installed..
 3. Numpy
 
 To run the server, open command prompt and type
-### set FLASK_APP=run.py
+##### set FLASK_APP=run.py
 press enter and again type
-### python -m flask run --host YOUR_PROXY_ADDRESS --port ANY_PORT_NUMBER --reload
+##### python -m flask run --host YOUR_PROXY_ADDRESS --port ANY_PORT_NUMBER --reload
 IF you want to run it locally, just type
-### python -m flask run --reload
+##### python -m flask run --reload
 press enter.
 
 Go to the localhost http://127.0.0.1:5000
